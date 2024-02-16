@@ -1,7 +1,7 @@
 .home-page {
   display: flex;
   flex-direction: column;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Tahoma, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 .header {
@@ -16,19 +16,19 @@
   text-align: center;
 }
 
-.card {
+.character-card {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
   border-radius: 16px;
   padding: 16px;
   margin: 16px auto;
   max-width: 1000px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #1f2534;
+  background-color: #293654;
 }
 
-.user-image {
+.character-image {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -36,7 +36,24 @@
   margin-right: 12px;
 }
 
-.user-name {
+.character-profile-details {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  width: 16vw;
+  margin-left: 32px;
+}
+
+.character-name {
   font-size: 16px;
   font-weight: bold;
+  margin: 16px 0;
+}
+
+.character-status {
+  margin: 0;
+}
+
+.character-species {
+  margin: 0;
 }
